@@ -293,3 +293,96 @@ body {
 
   content: "$ 69.00 USD";
 }
+
+.section-fourth {
+  margin-top: 115px;
+}
+
+.more-product-title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1D1F2E;
+  margin-bottom: 100px;
+
+}
+
+.more-product-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.coffie-li {
+  margin-bottom: 65px;
+}
+
+.coffie-title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #1D1F2E;
+  margin-top: 35px;
+  margin-bottom: 5px;
+}
+
+.red-coffie-text {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  text-align: center;
+  color: #A25F4B;
+
+}
+
+.red-coffie-text::after {
+  margin-left: 10px;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  text-decoration-line: line-through;
+  color: rgba(29, 31, 46, 0.4);
+
+  content: "$ 37.00 USD";
+}
+
+.dark-coffie-text {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  text-align: center;
+  color: #A25F4B;
+}
+
+.dark-coffie-text::after {
+  margin-left: 10px;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  text-decoration-line: line-through;
+  color: rgba(29, 31, 46, 0.4);
+
+  content: "$ 37.00 USD";
+}
+
+.coffie-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: rgba(29, 31, 46, 0.7);
+
+}
+
+.coffie-text-2 {
+  text-decoration: line-through;
+}
