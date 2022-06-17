@@ -134,10 +134,10 @@ body {
 .section-home {
   padding-top: 159px;
   padding-bottom: 177px;
-  background-color: #050827;
   background-image: url("../img/bg-image.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #050827;
 }
 
 .home {
@@ -272,6 +272,22 @@ body {
   color: rgba(29, 31, 46, 0.7);
 
 
+}
+
+.mug-first {
+  transition: box-shadow 0.3s ease;
+}
+
+.mug-first:hover {
+  box-shadow: 0 0 20px 10px rgba(128, 128, 128, 0.46);
+}
+
+.mug-second {
+  transition: box-shadow 0.3s ease;
+}
+
+.mug-second:hover {
+  box-shadow: 0 0 20px 10px rgba(128, 128, 128, 0.46);
 }
 
 .mug-text-2 {
@@ -492,4 +508,12 @@ body {
   background-color: #fff;
   color: #1D1F2E;
 
+}
+
+.section-sixth {
+  height: 340px;
+  background-image: url("../img/bg-img-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
 }
