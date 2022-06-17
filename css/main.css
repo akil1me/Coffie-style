@@ -226,7 +226,11 @@ body {
   text-align: center;
   color: #A25F4B;
   margin: auto;
+
+
 }
+
+
 
 .section-third {
   margin-top: 98px;
@@ -319,6 +323,16 @@ body {
 
 .coffie-li {
   margin-bottom: 65px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.coffie-li-last {
+  margin-bottom: 0;
+}
+
+.coffie-li:hover {
+  box-shadow: 0 0 20px 10px rgba(128, 128, 128, 0.46);
 }
 
 .coffie-title {
@@ -385,4 +399,97 @@ body {
 
 .coffie-text-2 {
   text-decoration: line-through;
+}
+
+.section-fivth {
+  margin-top: 165px;
+  margin-bottom: 130px;
+}
+
+.shopping {
+  margin-top: 100px;
+}
+
+.magazine-free-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1D1F2E;
+
+}
+
+.shopping-img {
+  display: flex;
+}
+
+.collage-imgs {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.collage-imgs img+img {
+  margin-top: 20px;
+}
+
+.shopping {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.premiem-offer-text1 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1D1F2E;
+  margin-bottom: 14px;
+
+}
+
+.premiem-offer-title {
+  width: 237px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 50px;
+  color: #1D1F2E;
+  margin-bottom: 15px;
+
+}
+
+.premiem-offer-text2 {
+  width: 353px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(29, 31, 46, 0.7);
+  margin-bottom: 25px;
+}
+
+.premiem-offer-button {
+  background-color: #1D1F2E;
+  border: 1px solid #1D1F2E;
+  padding: 9px 24px;
+  color: #FFFFFF;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.premiem-offer-button:hover {
+  background-color: #fff;
+  color: #1D1F2E;
+
 }
