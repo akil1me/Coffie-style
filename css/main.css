@@ -1,3 +1,57 @@
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 200;
+  src:
+    url('../fonts/karla-v22-latin-200.woff2') format('woff2'),
+    url('../fonts/karla-v22-latin-200.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 300;
+  src:
+    url('../fonts/karla-v22-latin-300.woff2') format('woff2'),
+    url('../fonts/karla-v22-latin-300.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 500;
+  src:
+    url('../fonts/karla-v22-latin-500.woff2') format('woff2'),
+    url('../fonts/karla-v22-latin-500.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../fonts/karla-v22-latin-regular.woff2') format('woff2'),
+    url('../fonts/karla-v22-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 600;
+  src:
+    url('../fonts/karla-v22-latin-600.woff2') format('woff2'),
+    url('../fonts/karla-v22-latin-600.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url('../fonts/karla-v22-latin-700.woff2') format('woff2'),
+    url('../fonts/karla-v22-latin-700.woff') format('woff');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +63,7 @@
 }
 
 body {
-  font-family: serif;
+  font-family: "Karla", sans-serif;
   font-weight: normal;
   font-size: 14px;
   font-style: normal;
@@ -586,6 +640,7 @@ body {
 }
 
 .email-input {
+  width: 350px;
   padding: 18px 40px;
   outline: none;
   border: 1px solid #2F303E;
@@ -627,6 +682,7 @@ body {
 }
 
 .email-button {
+
   padding: 18px 25px;
   background-color: #fff;
   box-shadow: 0px 2px 6px rgba(29, 31, 46, 0.1);
